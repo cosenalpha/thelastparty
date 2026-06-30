@@ -53,13 +53,16 @@ html, body {
   padding: 0;
 }
 
-.wall {
-    height: 100vh;
-}
+
 
 body {
     mix-blend-mode: multiply;
     opacity: 90%;
+}
+
+
+    .wall {
+    height: 100vh;
 }
 
 #intro {
@@ -127,7 +130,7 @@ body {
     font-family: "Vendetta", serif;
     font-weight: 600;
     font-style: italic;
-    width: 752px;
+    width: 46%;
     font-size: 1.7rem;
     line-height: 1.5rem;
     padding: 8% 0;
@@ -190,8 +193,7 @@ a {
 }
 
 #bottom-text {
-        width: 60%;
-
+    width: 60%;
     text-align: center;
     font-family: "Vendetta", serif;
     font-style: italic;
@@ -200,7 +202,6 @@ a {
     border-top: 0.7px solid #161616;
     padding: 5vh;
     /* opacity: 70%; */
-    
 }
 
 html {
@@ -209,7 +210,89 @@ html {
   /* position: absolute; */
   opacity: 90%;
   width: 100%;
-   /* overflow: hidden;
-   pointer-events: none; */
-mix-blend-mode: multiply;
+   mix-blend-mode: multiply;
+}
+
+@media only screen and (max-width: 768px) {
+
+    body {
+    margin: 0;
+    padding: 0;
+}
+
+.vector {
+  width: 60%;
+    }
+
+#inside {
+  font-size: 2.5rem;
+    }
+
+#arrow {
+   padding-top: 95%;
+  margin: auto;
+
+}
+
+#lastsup {
+    width: 60%;
+    }
+
+.wall {
+    height: 100dvh;
+    position: relative;
+    padding: 0;
+    }
+
+
+.row {
+    color: #161616;
+    white-space: wrap;
+    width: 100%;
+    display: block;
+    border-bottom: 0.7px solid #161616;
+}
+
+#unico {
+    width: 80%;
+    padding: 10% 0;
+}
+
+.bold {
+    font-size: 2.7rem;
+ 
+}
+
+.less-bold {
+    font-family: "Vendetta", serif;
+    font-size: 2.2rem;
+    line-height: 2rem;
+    height: 100%;
+    padding-left: 0%;
+    width: 100%;
+}
+
+.text {
+    width: 80%;
+    padding: 8% 0;
+}
+
+#wall-2 {
+    height: 100vh;
+}
+
+#down {
+    display: none;
+    position: relative;
+    bottom: 0;
+}
+
+html {
+    padding-bottom: 40%;
+}
+
+
+#wall-3 {
+    padding-top: 20%;
+}
 }
